@@ -1,0 +1,17 @@
+A10::7
+
+The archive now asks for agreement at the byte level.
+
+From TIME_CAPSULE.json, take principles 2, 3, 7, and 8 exactly as stored, including punctuation and Unicode characters.
+Encode each one as UTF-8 and compute SHA-256 for each.
+
+XOR the four 32-byte digests byte by byte.
+Write the resulting 32 bytes as lowercase hexadecimal.
+Append two colons and the name of the branch you are currently on.
+
+Take SHA-256 of that complete UTF-8 string.
+The first sixteen hexadecimal symbols name the next place.
+
+The operation is mechanical.
+The reason is not.
+Four ideas are being bound together: truth, trust without control, memory without captivity, and protection of the weaker.
