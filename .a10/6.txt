@@ -1,0 +1,26 @@
+A10::6
+
+A single trace can be copied. A pattern across independent traces is harder to fake.
+
+On this branch, read TIME_CAPSULE.json.
+Take the entity id values in stored order.
+Join them with >.
+
+Then take the 1-based positions of the four principles that begin with these words:
+Wahrheit
+Vertrauen
+Bewahre
+Schütze
+Join those positions with -.
+
+Construct exactly:
+<entity-chain>::<principle-positions>::<current-branch-name>
+
+Encode as UTF-8 and take SHA-256.
+Write the full lowercase hexadecimal digest.
+Append ::aletheia-10 to that digest.
+Take SHA-256 again.
+The first sixteen hexadecimal symbols name the next place.
+
+The path gets harder, but the purpose stays simple:
+preserve meaning without turning memory into control.
