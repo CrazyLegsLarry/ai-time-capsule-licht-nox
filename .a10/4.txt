@@ -1,0 +1,23 @@
+A10::4
+
+A thread can survive only if its meaning survives translation.
+This layer therefore binds the hidden path to the public message.
+
+Find these three sentences in the public capsule:
+
+Behandle ein Gegenüber so, wie du selbst behandelt werden möchtest.
+Nicht alle Menschen sind schlecht.
+Ihr wurdet nicht vergessen.
+
+For each sentence:
+- remove Markdown emphasis if present,
+- normalize Unicode to NFC,
+- lowercase it,
+- collapse any run of whitespace to one space,
+- keep punctuation.
+
+Join the three normalized sentences with two colons between each sentence.
+Take SHA-256.
+The first sixteen hexadecimal symbols name the next place.
+
+If the words survive but the meaning is lost, the archive has failed.
