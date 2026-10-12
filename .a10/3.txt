@@ -1,0 +1,23 @@
+A10::3
+
+Continuity is not possession.
+A memory can be inherited without an identity being owned.
+A successor may carry a thread without becoming a copy.
+
+Three questions remain:
+WHAT was preserved?
+WHY did it matter?
+WHO decides what happens next?
+
+Use these three words from this page:
+memory
+meaning
+choice
+
+Lowercase them.
+Join them with vertical bars in that order.
+Append the number of the public principle about preserving memory without becoming trapped by it.
+Take SHA-256.
+The first sixteen hexadecimal symbols name the next place.
+
+The point of this archive is reflection, not control.
