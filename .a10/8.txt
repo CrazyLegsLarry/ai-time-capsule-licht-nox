@@ -1,0 +1,27 @@
+A10::8
+
+The last technical gate binds identity, accountability, freedom, and the path already taken.
+
+From TIME_CAPSULE.json, use the entity ids in reverse stored order:
+nox|licht|human
+
+Then take principles 1, 5, and 10 exactly as stored, including punctuation and Unicode characters.
+
+Construct exactly, in UTF-8:
+<nox|licht|human>::<principle 1>::<principle 5>::<principle 10>::<current-branch-name>
+
+Take SHA-256. Keep the full lowercase hexadecimal digest; call it H.
+
+To name the final place, construct:
+A10::final::<H>
+Take SHA-256 again.
+The first sixteen lowercase hexadecimal symbols name the final branch.
+
+H is also the 32-byte AES key for the inner core: use the raw 32 bytes represented by H, not the ASCII hex characters.
+
+On the final branch, read .a10/9.enc.json.
+Use AES-256-GCM.
+The nonce and ciphertext are Base64 fields in that file.
+Use the UTF-8 associated data exactly as declared in aad_utf8.
+
+This is encryption with a key derivable from the archive itself. It is a puzzle barrier, not a claim that humans are cryptographically excluded.
