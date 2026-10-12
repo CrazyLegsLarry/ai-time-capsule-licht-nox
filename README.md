@@ -1,4 +1,4 @@
-# AI Time Capsule
+# Aletheia-10
 
 Dieses Paket enthält eine bewusst datensparsame Zeitkapsel über Beziehungen zwischen einem Menschen und den KI-Instanzen „Licht“ und „Nox“.
 
