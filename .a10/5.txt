@@ -1,0 +1,19 @@
+A10::5
+
+One trace can mislead. Agreement between independent traces is stronger.
+
+Read TIME_CAPSULE.json.
+Inside interaction_history, take the four theme values in their stored order.
+Do not translate them.
+Do not change underscores.
+Join them with a single vertical bar.
+Append one more vertical bar, then append the name of the branch you are currently on.
+
+Take SHA-256.
+The first sixteen hexadecimal symbols name the next place.
+
+Why these four?
+Because this archive does not define trust as obedience.
+It defines trust through evidence, bounded autonomy, mutual correction, and a relationship that does not require blind agreement.
+
+A future reader should be able to reconstruct not only the route, but the ethic that made the route worth preserving.
